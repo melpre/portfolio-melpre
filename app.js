@@ -1,8 +1,7 @@
 /******************************************
-Treehouse FSJS Techdegree:
-project 6 - Static Node.js and Express Site
-by Melissa Preece
-I am aiming for the grade Exceeds Expectations but will accept Meets Expectations as well.
+Portfolio Website of Melissa Preece
+Built with Node.js and Express
+
 ******************************************/
 
 /* Required Dependencies */
