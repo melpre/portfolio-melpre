@@ -1,11 +1,11 @@
 # portfolio-melpre
 ### My Portfolio of Projects Website
 
-* * 
+* * *
 
 This web application is a portfolio of personal projects that showcase my JavaScript, HTML and CSS skills. This project uses Node.js and Express to import required dependencies, links JSON to Pug templates, sets up routes to handle HTTP requests, utilizes middleware to render static CSS and HTML files, handles HTTP request errors and sets up a server to serve the project.
 
-To see a live demonstration, please visit this [link] (https://mpreeceportfolio.herokuapp.com/ "MelPre Portfolio").
+To see a live demonstration, please visit this [link](https://mpreeceportfolio.herokuapp.com/)
 
 To **run**:
 
