@@ -1,0 +1,32 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Project Title
+        h1= project.project_name
+
+        //- Project Description (dynamically added)
+        p.lead.text-light= project.description
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+
+        //- `each` iterator to dynamically add 'li' tags with 'technologies' values.
+        ul
+          each technology in project.technologies
+            li= technology
+
+        //- 'a' tags with links to Github repos and live demos
+        a.button.expanded(href=`https://melpre.github.io/Techdegree-Project-${project.id + 1}`, target='_blank') Live Demo
+        a.button.expanded(href=`https://github.com/melpre/Techdegree-Project-${project.id + 1}`) GitHub Repo
+    
+    //- 3 project images per project page
+    img.image(src=`${project.image_urls[1]}`)
+    img.image(src=`${project.image_urls[2]}`)
+    img.image(src=`${project.image_urls[3]}`)
+      

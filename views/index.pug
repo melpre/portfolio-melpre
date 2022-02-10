@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      //- Title
+      h1 My Portfolio
+ 
+      //- Description
+      p.lead.text-light
+        | Welcome! Here you will find a plethora of projects demonstrating my awesome development skills. They incorporate JavaScript, HTML and CSS languages, as well as utilize popular frameworks such as Express, JavaScript runtime Node.js, React, JSX, relational database management system SQLite and ORM Sequelize.
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+    
+      //- Populate each project data into template
+      each project in projects
+        .cell
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`)
+            h5= project.project_name
+

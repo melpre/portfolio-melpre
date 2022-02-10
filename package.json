@@ -1,0 +1,25 @@
+{
+  "name": "Techdegree-Project-6",
+  "version": "1.0.0",
+  "description": "My sixth techdegree project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melpre/Techdegree-Project-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melpre/Techdegree-Project-6/issues"
+  },
+  "homepage": "https://github.com/melpre/Techdegree-Project-6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}

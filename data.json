@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "random quote generator",
+            "description": "My first techdegree project: a web application that displays random famous quotes each time a button is clicked.",
+            "technologies": ["javascript", "css", "html"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/Techdegree-Project-1",
+            "image_urls": ["/static/img/random_quote_generator_square.png", "/static/img/random_quote_generator_1.png", "/static/img/random_quote_generator_2.png", "/static/img/random_quote_generator_3.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "list pagination and filter",
+            "description": "My second techdegree project: a web page that uses 'pagination' to enhance its usability. It displays 10 names at a time and includes a navigation system to let users click through the other entry names, 10 at a time.",
+            "technologies": ["javascript", "css", "html"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/Techdegree-Project-2",
+            "image_urls": ["/static/img/list_pagination_filter_square.png", "/static/img/list_pagination_filter_1.png", "/static/img/list_pagination_filter_2.png", "/static/img/list_pagination_filter_3.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "interactive form",
+            "description": "My third techdegree project: a registration form with customized and conditional behavior and interactivity. It validates user input and provides helpful error messages.",
+            "technologies": ["javascript", "css", "html", "jquery"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/Techdegree-Project-3",
+            "image_urls": ["/static/img/interactive_form_square.png", "/static/img/interactive_form_1.png", "/static/img/interactive_form_2.png", "/static/img/interactive_form_3.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "phrase hunter game",
+            "description": "My fourth techdegree project: a browser-based, word guessing game called 'Phrase Hunter' that uses object-oriented programming.",
+            "technologies": ["javascript", "css", "html", "oop"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/Techdegree-Project-4",
+            "image_urls": ["/static/img/phrase_hunter_square.png", "/static/img/phrase_hunter_1.png", "/static/img/phrase_hunter_2.png", "/static/img/phrase_hunter_3.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "public api requests",
+            "description": "My fifth techdegree project: an application that communicates with the Random User Generator API and dynamically pulls data to build an employee directory.",
+            "technologies": ["javascript", "css", "html", "rest api"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/Techdegree-Project-5",
+            "image_urls": ["/static/img/public_api_requests_square.png", "/static/img/public_api_requests_1.png", "/static/img/public_api_requests_2.png", "/static/img/public_api_requests_3.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "image gallery using React",
+            "description": "My seventh techdegree project: a single-page application of an image gallery that utilizes the React library, JSX syntax and the Create React App tool and React Router modules.",
+            "technologies": ["javascript", "css", "html", "react"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/techdegree-project-7-new",
+            "image_urls": ["/static/img/React_img_gallery_square.png", "/static/img/React_img_gallery_1.png", "/static/img/React_img_gallery_2.png", "/static/img/React_img_gallery_3.png"]
+        },
+        {
+            "id": 6,
+            "project_name": "sql library manager",
+            "description": "My eighth techdegree project: a CRUD (create, read, update and delete) web application that manages a collection of library books.",
+            "technologies": ["javascript", "node", "pug", "express", "sqlite", "sequelize"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/Techdegree-Project-8",
+            "image_urls": ["/static/img/SQL_library_square.png", "/static/img/SQL_library_1.png", "/static/img/SQL_library_2.png", "/static/img/SQL_library_3.png"]
+        },
+        {
+            "id": 7,
+            "project_name": "fullstack app with react and rest api",
+            "description": "My tenth techdegree project: a React application to create a client for an existing school database REST API (that was created in a previous project).",
+            "technologies": ["javascript", "react", "jsx", "rest api", "express"],
+            "live_link": "",
+            "github_link": "https://github.com/melpre/Techdegree-Project-10",
+            "image_urls": ["/static/img/fullstackapp_restapi_react_square.png", "/static/img/fullstackapp_restapi_react_1.png", "/static/img/fullstackapp_restapi_react_2.png", "/static/img/fullstackapp_restapi_react_3.png"]
+        }
+    ]
+}
