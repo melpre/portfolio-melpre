@@ -53,8 +53,19 @@ const projectsRoute = require('./routes/project');
     
 /* Server */
 // Start server
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000.');
+
+/* Original code */
+// app.listen(3000, () => {
+//     console.log('The application is running on localhost:3000.');
+// });
+
+/* Heroku recommended code */
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port, () => {
+    console.log(`The application is running on localhost:${port}.`);
 });
 
 
