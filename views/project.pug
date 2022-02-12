@@ -22,8 +22,8 @@ block content
             li= technology
 
         //- 'a' tags with links to Github repos and live demos
-        a.button.expanded(href=`https://melpre.github.io/Techdegree-Project-${project.id + 1}`, target='_blank') Live Demo
-        a.button.expanded(href=`https://github.com/melpre/Techdegree-Project-${project.id + 1}`) GitHub Repo
+        a.button.expanded(href=`${project.live_link}`, target='_blank') Live Demo
+        a.button.expanded(href=`${project.github_link}`) GitHub Repo
     
     //- 3 project images per project page
     img.image(src=`${project.image_urls[1]}`)
