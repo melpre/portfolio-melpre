@@ -68,7 +68,7 @@
             "project_name": "fullstack app with react and rest api",
             "description": "My tenth techdegree project: a React application to create a client for an existing school database REST API (that was created in a previous project).",
             "technologies": ["javascript", "react", "jsx", "rest api", "express"],
-            "live_link": "",
+            "live_link": "https://frontend-courses-app.herokuapp.com/",
             "github_link": "https://github.com/melpre/Techdegree-Project-10",
             "image_urls": ["/static/img/fullstackapp_restapi_react_square.png", "/static/img/fullstackapp_restapi_react_1.png", "/static/img/fullstackapp_restapi_react_2.png", "/static/img/fullstackapp_restapi_react_3.png"]
         }
